@@ -4,10 +4,11 @@ Each room is a server and each client is a player. Rooms can be connected to eac
 
 Commands available to player (Client):
  - say sayWhatYouWantHere
- - look
+ - look (to get a description of the room you are currently in)
  - pickup itemName
  - drop itemName
  - nort/south/east/west/up/down (if there is a room in the typed direction, the player will move from its current room to that room)
+ - exit (to exit the game)
 
 
 There are three python files: discovery.py , room.py (sever) and player.py (client)
